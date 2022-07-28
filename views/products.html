@@ -6,8 +6,74 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/products.css">
+
 </head>
 <body>
+<header>
+    <h3 class="header_id">Welcome</h3>
+</header>
+<tbody>
+
+<table border="2px" style="background-color: red">
+    <tr>
+        <td>
+            <label for="name">Tên Sản phẩm:
+                <input type="text" placeholder="Nhập tên sản phẩm" size="25" maxlength="30" id="name">
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="price">Giá Sản phẩm:
+                <input type="text" placeholder="Nhập tên sản phẩm" size="25" maxlength="30" id="price">
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="image">Ảnh Sản phẩm:
+                <input type="text" placeholder="Nhập tên sản phẩm" size="25" maxlength="30" id="image">
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="category">Loại Sản phẩm:</label>
+            <select id="category">
+                <option></option>
+                <option value="clock">Đồng hồ</option>
+                <option value="cosmetic">Mỹ phẩm</option>
+                <option value="perfume">Nước hoa</option>
+                <option value="lipstick">Son môi</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="createProducts()">Create</button>
+            <button onclick="editProducts()">Edit</button>
+            <button onclick="deleteProducts()">Delete</button>
+        </td>
+
+    </tr>
+</table>
+</tbody>
+
+<footer>
+    <div id="footer">
+        <p></p>
+        <p>Copyright &copy; Công Ty Cổ Phần Thương Mại Vua Hàng Hiệu</p>
+        <p>Điện thoại: 093.934.8888 Tổng đài:
+            1900.232.322</p>
+        <p>Email: cskh@vuahanghieu.com</p>
+        <p>Time: Thứ 2 - Thứ 6: 8:00' - 17:00', Thứ 7 8:00' - 11:30'</p>
+        <p>Địa chỉ: Tầng 3, Tòa nhà 24T3 Thanh Xuân Complex, Số 6 Lê Văn Thiêm, Thanh Xuân Trung, Thanh Xuân, Hà Nội</p>
+        <p>Mã số thuế: 0108603370 do Sở Kế hoạch và Đầu tư Hà Nội cấp ngày 28/01/2019</p>
+    </div>
+</footer>
+<script src="../router/products.js"></script>
+<script src="../router/productsRender.js"></script>
 
 </body>
 </html>

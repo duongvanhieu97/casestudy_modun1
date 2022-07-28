@@ -1,0 +1,40 @@
+.header_id {
+    background-color: aqua;
+    padding: 24px;
+    margin: 0;
+    height: 40px;
+}
+/*table {*/
+/*    border: 10px;*/
+/*}*/
+table tr td {
+    text-align: left;
+}
+table tr td label {
+    color: blue;
+}
+table tr td label input {
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 20px;
+}
+/*footer*/
+#footer {
+    width: 100%;
+    text-align: left;
+    background: aqua;
+    font-size: 15px;
+    position: relative;
+}
+
+#footer p {
+    margin: 5px;
+    font-family: sans-serif;
+    color: black;
+    padding: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
