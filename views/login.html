@@ -6,29 +6,50 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-<div id="login">
-    <form action="index.html" method="post" onsubmit="return validateFormLogin()">
-        <table>
-            <tr>
-                <td>Username:</td>
-                <td><label><input type="text" name="username" id="username" size="25px"></label></td>
-            </tr>
-            <tr>
-                <td>Password:</td>
-                <td><label><input type="password" name="password" id="password" size="25px"></label></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <button type="submit" name="submit">Login</button>
-                </td>
-            </tr>
-        </table>
-    </form>
+<header>
+    <h3 class="header_id">Welcome</h3>
+</header>
+<div id="container">
+    <div id="logo"><img src="../image/logo.svg" alt="Lỗi" width="300px" height="98%"></div>
+    <div id="login">
+        <!-- link sang trang index.html-->
+        <form action="index.html" method="post" onsubmit="return validateFormLogin()">
+            <table>
+                <!-- Nhập tên đăng nhập và mật khẩu-->
+                <tr>
+                    <td>Username:</td>
+                    <td><label><input type="text" name="username" id="username" size="25px"></label></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><label><input type="password" name="password" id="password" size="25px"></label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <!-- button login-->
+                        <button type="submit" name="submit">Login</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
 </div>
-
+<footer>
+    <div id="footer">
+        <p></p>
+        <p>Copyright &copy; Công Ty Cổ Phần Thương Mại Vua Hàng Hiệu</p>
+        <p>Điện thoại: 093.934.8888 &emsp; Tổng đài:
+            1900.232.322</p>
+        <p>Email: cskh@vuahanghieu.com</p>
+        <p>Time: Thứ 2 - Thứ 6: 8:00' - 17:00', Thứ 7 8:00' - 11:30'</p>
+        <p>Địa chỉ: Tầng 3, Tòa nhà 24T3 Thanh Xuân Complex, Số 6 Lê Văn Thiêm, Thanh Xuân Trung, Thanh Xuân, Hà Nội</p>
+        <p>Mã số thuế: 0108603370 do Sở Kế hoạch và Đầu tư Hà Nội cấp ngày 28/01/2019</p>
+    </div>
+</footer>
 <script src="/router/login.js"></script>
 </body>
 </html>
