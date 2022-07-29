@@ -13,7 +13,14 @@
 <header>
     <h3 class="header_id">Welcome</h3>
 </header>
-<tbody>
+<div>
+    <ul>
+        <li><button onclick="showClock()">Đồng hồ</button></li>
+        <li><button onclick="showCosmetic()">Mỹ phẩm</button></li>
+        <li><button onclick="showPerfume()">Nước hoa</button></li>
+        <li><button onclick="showLipstick()">Son môi</button></li>
+    </ul>
+</div>
 
 <table border="2px" style="background-color: red">
     <tr>
@@ -26,14 +33,14 @@
     <tr>
         <td>
             <label for="price">Giá Sản phẩm:
-                <input type="text" placeholder="Nhập tên sản phẩm" size="25" maxlength="30" id="price">
+                <input type="text" placeholder="Nhập giá sản phẩm" size="25" maxlength="30" id="price">
             </label>
         </td>
     </tr>
     <tr>
         <td>
             <label for="image">Ảnh Sản phẩm:
-                <input type="text" placeholder="Nhập tên sản phẩm" size="25" maxlength="30" id="image">
+                <input type="text" placeholder="Nhập ảnh sản phẩm" size="25" maxlength="30" id="image">
             </label>
         </td>
     </tr>
@@ -52,14 +59,15 @@
     <tr>
         <td>
             <button onclick="createProducts()">Create</button>
-            <button onclick="editProducts()">Edit</button>
-            <button onclick="deleteProducts()">Delete</button>
+            <!--            <button onclick="editProducts()">Edit</button>-->
         </td>
 
     </tr>
 </table>
-</tbody>
 
+<div id="list">
+    <div id="listProduct"></div>
+</div>
 <footer>
     <div id="footer">
         <p></p>
