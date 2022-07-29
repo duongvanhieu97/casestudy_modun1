@@ -22,7 +22,6 @@ class Products {
     getCategory() {
         return this.category
     };
-
     getImage() {
         return this.image
     };
