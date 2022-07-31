@@ -1,6 +1,6 @@
 function renderUpdateProducts(text) {
     let data = ""
-    data += "<table id='table'>" +
+    data += "<table id='table' border='2px' style='margin-top: 10px'>" +
         "<tr><td colspan='2'><h2>" + text + "</h2></td></tr>" +
         "<tr><td><label for='name'>Tên sản phẩm</label></td>" +
         "<td><input type='text' name='name' size='25' maxlength='30' id='name'></td></tr>" +
