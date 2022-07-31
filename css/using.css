@@ -1,0 +1,20 @@
+/*footer*/
+#footer {
+    width: 100%;
+    text-align: left;
+    background: aqua;
+    font-size: 15px;
+    position: relative;
+}
+
+#footer p {
+    margin: 5px;
+    font-family: sans-serif;
+    color: black;
+    padding: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

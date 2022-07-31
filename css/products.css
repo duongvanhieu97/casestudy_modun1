@@ -16,6 +16,10 @@
     float: left;
     position: absolute;
 }
+#createButton {
+    border-radius: 5px;
+    background-color: aqua;
+}
 
 #tableProduct {
     display: flex;
@@ -24,6 +28,7 @@
 /*    border: 10px;*/
 /*}*/
 table tr td {
+
     text-align: left;
 }
 
@@ -39,7 +44,7 @@ table tr td label input {
 
 #admin {
     float: right;
-    position: relative;
+    /*position: relative;*/
     padding: 20px 20px;
     color: black;
 }
@@ -67,11 +72,19 @@ p {
 
 #listProduct {
     font-family: sans-serif;
-
     padding: 10px 30px;
+
+}
+#listProduct h2 {
+    font-size: 20px;
+    color: blue;
 }
 
-#displayElement a {
-    text-decoration: none;
-    color: blue;
+#listProduct img {
+    width: auto;
+    height: 200px;
+}
+#listProduct button {
+    border-radius: 5px;
+    background-color: aqua;
 }

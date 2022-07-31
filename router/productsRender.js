@@ -46,7 +46,7 @@ function showProducts(arr) {
     for (let i = 0; i < arr.length; i++) {
         content += "<tr>";
         for (let j = 0; j < arr[i].length; j++) {
-            content += '<td>'
+            content += '<div><td>'
             content += "<img  src=" + arr[i][j].image + ">"
             content += "<h2>" + arr[i][j].name + "</h2>"
             content += "<p>Giá:  " + arr[i][j].price + " đ</p>"
@@ -55,7 +55,7 @@ function showProducts(arr) {
                 content += "<button onclick='renderUpdateProducts(\"Cập nhật\");updateProduct(" + i + "," + j + ',\"' + arr[i][j].getCategory() + '"' + ")'>&nbsp;Sửa&nbsp;</button>" + "&emsp;"
                 content += "<button onclick='deleteProduct(" + i + "," + j + ',\"' + arr[i][j].getCategory() + '"' + ")'>&nbsp;Xóa&nbsp;</button>"
             }
-            content += "</td>"
+            content += "</div></td>"
         }
         content += "</tr>"
     }
