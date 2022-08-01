@@ -7,15 +7,21 @@
 
 #heater {
     font-family: sans-serif;
-    width: 1520px;
+    width: 100%;
     height: 150px;
-    position: relative;
+}
+
+#header {
+    width: 50%;
+    float: right
 }
 
 #logo {
     float: left;
+    width: 50%;
     position: absolute;
 }
+
 #createButton {
     border-radius: 5px;
     background-color: aqua;
@@ -24,6 +30,7 @@
 #tableProduct {
     display: flex;
 }
+
 /*table {*/
 /*    border: 10px;*/
 /*}*/
@@ -75,6 +82,7 @@ p {
     padding: 10px 30px;
 
 }
+
 #listProduct h2 {
     font-size: 20px;
     color: blue;
@@ -84,6 +92,7 @@ p {
     width: auto;
     height: 200px;
 }
+
 #listProduct button {
     border-radius: 5px;
     background-color: aqua;
